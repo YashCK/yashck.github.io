@@ -68,19 +68,14 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/theme.css" />
 
     {% if jekyll.environment == "production" %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
-    ></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W9NMDKRYXB"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-      gtag("config", "{{ site.google_analytics }}");
+      gtag('config', 'G-W9NMDKRYXB');
     </script>
     {% endif %}
   </head>

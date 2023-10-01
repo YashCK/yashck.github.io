@@ -1,0 +1,63 @@
+- company:
+    name: "Build A Robot Workshop, Inc."
+    url: "https://everyonesbiz.com/workshop"
+    logo: "/assets/images/logos/barw_logo.png"
+    description: |
+      Collaborated with CEO to write code, design schematics, and build projects such as a multi-axis robotic arm, distance- detection gun, and path-following truck.
+      Created how-to guides which demonstrate connecting components and code, which help deliver workshops.
+      Mentored elementary/middle school kids to build Arduino projects; Run events to introduce families to robotics.
+  positions:
+    - name: "Instructor and Developer"
+      type: "Startup"
+      from: 2019-01-10
+      to: 2021-07-30
+  bars:
+    top: 36%
+
+- company:
+    name: "Bay AI"
+    url: "https://bayai.org/"
+    logo: "/assets/images/logos/bayai_logo.png"
+    description: |
+      Democratized access to Artificial Intelligence resources by developing structured curricula and interactive examples.
+      Presented dozens of lectures and code demos that focus on fundamental theory, mathematics, and practical use of Machine Learning, Neural Networks, and NLP to high school students.
+      Secured sponsorships and invite guest speakers.
+  positions:
+    - name: "Co-President and Instructor"
+      type: "Organization"
+      from: 2010-01-15
+      to: 2022-05-01
+  bars:
+    top: 33%
+    bottom: 33%
+- company:
+    name: "Aviation and Rocketry Club"
+    logo: "/assets/images/logos/arc_logo.png"
+    description: |
+      Led exploration of aerospace, teaching students to engineer rockets, airplanes, drones, and employ CAD software for prototyping through interactive lectures, hands-on projects, and games.
+      Organized rocket launches and aircraft flight events; Established intra-school competitions such as drone races and paper plane challenges.
+      Mentored a team to participate in the TARC competition.
+  positions:
+    - name: "President"
+      type: "Club"
+      from: 2018-09-01
+      to: 2022-05-30
+  bars:
+    top: 35%
+    bottom: 30%
+
+- company:
+    name: "Space Entreprise Berkeley"
+    url: "https://www.berkeleyse.org/"
+    logo: "/assets/images/logos/seb_logo.png"
+    description: |
+      Utliized Ethernet UDP to send & receive data packets over multicast between multiple devices via ESP32.
+      Optimized pressure regulation with a closed-loop feedback system by fine-tuning PID control algorithms, streamlining data processing protocols, and analysis from multiple test fires.
+      Devised abort protocol of thermocouples, load cells, and pressure transducers in extreme conditions and during abnormal load/pressure readings.
+  positions:
+    - name: "Avionics Developer"
+      type: "Club"
+      from: 2022-08-01
+      to: 2023-03-01
+  bars:
+    bottom: 39%

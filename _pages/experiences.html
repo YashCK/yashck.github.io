@@ -1,0 +1,28 @@
+---
+layout: default
+title: Projects by Yash Kodali
+description: A collection of Yash's experiences
+excerpt: Collection of the experiences I have so far.
+permalink: /experiences
+---
+
+<h2 class="font-black">
+  Experiences
+</h2>
+<p class="mt-2 text-slate-500 dark:text-slate-300">{{ page.excerpt }}</p>
+
+<div class="mt-6">
+  {% assign workexp = site.data.experiences | reverse %}
+  {% for job in workexp %}
+    {% include job.html %}
+  {% endfor %}
+  </div>
+
+
+<div class="flex justify-center">
+  <a
+    href="https://www.linkedin.com/in/yash-kodali-2b4a43285/" target="_blank"
+    class="mt-10 px-3 py-2 link-button">
+    Visit my Linkedin profile &gt;
+  </a>
+</div>
