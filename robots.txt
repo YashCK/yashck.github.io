@@ -1,1 +1,1 @@
-Sitemap: https://gourav.sh/sitemap.xml
+Sitemap: https://yashck.github.io//sitemap.xml
