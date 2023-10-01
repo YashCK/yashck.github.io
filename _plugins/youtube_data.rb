@@ -146,8 +146,8 @@ module Jekyll
         'videos' => videos_list,
         'page_number' => page_num,
         'total_pages' => total_pages,
-        'title' => "Videos by Gourav Khunger#{page_description} | Software Developer",
-        'description' => "A collection of all the youtube videos posted by Gourav Khunger#{page_description}"
+        'title' => "Videos by Yash Kodali#{page_description}",
+        'description' => "A collection of all the youtube videos posted by Yash Kodali#{page_description}"
       }
     end
 

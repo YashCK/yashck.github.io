@@ -30,22 +30,18 @@
     <meta
       property="og:url"
       content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace: '/index.html', '' }}" />
-    <meta property="og:site_name" content="Gourav Khunger" />
+    <meta property="og:site_name" content="Yash Kodali" />
 
     {% if page.url == '/' %}
     <meta property="og:type" content="profile" />
-    <meta property="profile:first_name" content="Gourav" />
-    <meta property="profile:last_name" content="Khunger" />
+    <meta property="profile:first_name" content="Yash" />
+    <meta property="profile:last_name" content="Kodali" />
     {% elsif page.youtube %}
     <meta property="og:type" content="video">
     <meta property="og:video" content="https://www.youtube.com/v/{{ page.youtube }}" />
     {% else %}
     <meta property="og:type" content="website" />
     {% endif %}
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@gourav_khunger" />
-    <meta name="twitter:image" content="{{ image }}" />
 
     <link
       rel="canonical"
