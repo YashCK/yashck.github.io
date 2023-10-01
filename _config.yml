@@ -1,10 +1,10 @@
-title: Gourav Khunger
-email: gouravkhunger18@gmail.com
+title: Yash Kodali
+email: yash.kodali@berkeley.edu
 description: >-
-  Gourav Khunger is a software developer and a self-taught programmer. He specialises in native Android app development and is passionate about Open Source. Checkout his projects on Github!
+  I'm an undergrad at UC Berkeley, studying Electrical Engineering and Computer Sciences (EECS). My background is in writing software, mathematics, AI, and robotics. In my free time, I enjoy exploring new topics in STEM, playing Go, card games, and listening to music.
 baseurl: ""
-url: "https://gourav.sh"
-google_analytics: "G-GSRER1MM23"
+url: "https://yashck.github.io/"
+google_analytics: "G-W9NMDKRYXB"
 
 collections:
   projects:
