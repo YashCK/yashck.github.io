@@ -12,7 +12,7 @@ permalink: /experiences
 <p class="mt-2 text-slate-500 dark:text-slate-300">{{ page.excerpt }}</p>
 
 <div class="mt-6">
-  {% assign workexp = site.data.experiences | reverse %}
+  {% assign w3orkexp = site.data.experiences | reverse %}
   {% for job in workexp %}
     {% include job.html %}
   {% endfor %}
